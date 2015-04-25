@@ -1,0 +1,28 @@
+{
+    "name": "banana/bodybuilder-rendering-engine-blitz",
+    "description": "Banana BodyBuilder Blitz rendering engine",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vasily Oksak",
+            "email": "voksak@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/gromopuk/banana-bodybuilder"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "banana/bodybuilder": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": { "Banana\\BodyBuilder\\Rendering\\Engines\\Blitz\\": "src/Blitz" }
+    }
+}
